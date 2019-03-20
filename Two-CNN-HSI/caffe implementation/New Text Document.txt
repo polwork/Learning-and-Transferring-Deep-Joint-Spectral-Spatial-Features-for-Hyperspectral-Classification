@@ -1,0 +1,3 @@
+1.Generate the training data and testing data, then include them in the "example" folder.
+The "spe_data" in the prototxt file means spectrum of each pixel, "spa_data" means the spatial patch of the simulated panchromatic image, "label" is the class of each pixel.
+2.After training, put the obtained caffemodel file in "matlab" folder, run "SaveFilters_Classification.m" and obain a mat file, then run "Main.m" to obtain the classification map.
